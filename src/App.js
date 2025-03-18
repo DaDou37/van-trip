@@ -27,15 +27,15 @@ function App() {
         </Row>
       </div>
       <Nav />
-      <Bubble /> 
+      <Bubble />
       <Container>
-    
-      
-           
-             <CenterMode />
-         
-        
-      
+
+
+
+        <CenterMode />
+
+
+
       </Container>
 
     </>
