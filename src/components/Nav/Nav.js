@@ -1,7 +1,6 @@
-
-import "./Nav.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./Nav.css";
 
 function Nav(){
 
@@ -11,6 +10,7 @@ function Nav(){
     }
 
     return(
+        <header className="container-fluid">
         <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
             
             <ul className="navbar__links">
@@ -40,6 +40,7 @@ function Nav(){
             </button>
 
         </nav>
+        </header>
     )
 }
 

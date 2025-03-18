@@ -1,8 +1,8 @@
 body {
-  background-image: url('/public/image/fond.webp');
-  background-size: cover;
+  background-image: url('/public/image/fondgrandf.jpg'); 
+  background-size: 100%;
+  position: fixed;
 }
-
 
 ul {
   list-style: none;
@@ -14,10 +14,10 @@ ul {
   margin-bottom: 1rem;
 }
 .carrousel-container {
-  margin-top: 500px; 
   width: 100%;
   text-align: center; 
 }
+
 .custom-hr {
   border: 0; 
   height: 3px; 
