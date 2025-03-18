@@ -15,10 +15,10 @@ function centerMode() {
     speed: 500,
     responsive: [
       {
-        breakpoint: 1920,
+        breakpoint: 2100,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 1,
+          slidesToScroll: 3,
           infinite: true,
           dots: true
         }

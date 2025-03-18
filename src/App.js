@@ -29,15 +29,9 @@ function App() {
       <Nav />
       <Bubble />
       <Container>
-
-
-
         <CenterMode />
-
-
-
       </Container>
-
+      <hr className="col-4 " id='ligne'/>
     </>
   )
 

@@ -1,7 +1,8 @@
 body {
   background-image: url('/public/image/fondgrandf.jpg'); 
-  background-size: 100%;
+  background-size: 100vh;
   position: fixed;
+  background-repeat: no-repeat;
 }
 
 ul {
@@ -23,4 +24,13 @@ ul {
   height: 3px; 
   background-color: #000; 
   margin: 100px ; 
+}
+#ligne{
+  border: 0px;
+  height: 2px;
+  background-color: #241414;
+  border-radius: 4px;
+  margin: 20px auto ;
+  margin-top: 50px;
+
 }
