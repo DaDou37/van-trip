@@ -1,25 +1,58 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Bubble from './components/Bubble/Bubble';
+import Nav from './components/Nav/Nav';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-solid-svg-icons'
+import Slider from 'react-slick';
 import './App.css';
+import CenterMode from './components/Slider/Slider';
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+   <div className='container-fluid'>
+    <Row>
+      <div className="col-4">
+        <input type='text' className='recherche' />
+      </div>
+      <div className="col-4" id='logo'>
+        <img src='/image/logo.png' width='200' height='200'/>
+      </div>
+      <div className="col-4 ">
+        <a href='' className='auth'>Login/Register</a>
+        <FontAwesomeIcon icon="fa-brands fa-facebook" />
+      </div>
+    </Row>
+   </div>
+   <Nav /> 
+   <Bubble />
+    <Container>
+      <Row>
+        <Col> 
+          <div className='carrousel-container'>
+        <CenterMode />
+   </div>
+        </Col>
+
+      </Row>
+    </Container>
+   <div className='col-4' id='ligne'>
+    <img src='' />
+   </div>
+   <hr class="custom-hr" />
+   <div className='col-4' type='text'></div>
+       </>
+
+   
+  )
+
 }
 
 export default App;
