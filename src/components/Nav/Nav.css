@@ -1,3 +1,8 @@
+.container-fluid {
+    position: relative;
+    z-index: 100;
+}
+
 .recherche, .auth  {
     border-radius: 50px;
     border: 4px solid #E09471;
@@ -11,6 +16,7 @@
 }
 .navbar__links {
     margin: 0 auto;
+
     padding: 0;
     display: flex;
 }
@@ -45,6 +51,17 @@
     left: 50%;
     transform: translateX(-50%);
 }
+@media screen and (min-width: 1100px) {
+    .navbar__links {
+        display: flex;
+        justify-content: space-around;
+        width: 100%; 
+    }
+    .navbar__item {
+        text-align: center;
+    }
+}
+
 
 
 @media screen and (max-width:767px) {
@@ -76,8 +93,8 @@
     .navbar__burger {
         display: block;
         position: fixed;
-        top: 1rem;
-        right: 2rem;
+        top: 30px;
+        right: 20px;
     }
     .navbar__burger:hover {
         cursor: pointer;
@@ -114,5 +131,8 @@
     .show-nav .burger-bar::after {
         transform: rotate(-45deg);
     }
- 
+    .navbar__item {
+        width: auto;
+    }
 }
+

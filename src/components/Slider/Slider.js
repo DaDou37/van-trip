@@ -15,6 +15,15 @@ function centerMode() {
     speed: 500,
     responsive: [
       {
+        breakpoint: 3000,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
         breakpoint: 2100,
         settings: {
           slidesToShow: 3,
@@ -27,7 +36,7 @@ function centerMode() {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 1,
+          slidesToScroll: 3,
           infinite: true,
           dots: true
         }
@@ -36,7 +45,7 @@ function centerMode() {
         breakpoint: 992,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToScroll: 2,
           infinite: true,
           dots: true
         }

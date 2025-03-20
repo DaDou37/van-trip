@@ -8,7 +8,7 @@ function Bubble(){
     return(
         <div className='container- fluid bubble-container'>
             <div className='my-5 text-center'> 
-                <img src='/image/bubble.png' className='fluid-image' id='bubble' width="40%" />
+                <img src='/image/bubble.png' className='fluid-image' width="40%" />
              <h1>Ils y sont allés, ils nous en parlent </h1>
         </div>
         </div>

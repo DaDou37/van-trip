@@ -1,24 +1,22 @@
 body {
   background-image: url('/public/image/fondgrandf.jpg'); 
-  background-size: 100vh;
+  background-size: cover;
   position: fixed;
   background-repeat: no-repeat;
+}
+html, body {
+  height: 100%;
+  overflow: auto;
 }
 
 ul {
   list-style: none;
   font-family: Poppins;
 }
-.main {
-  min-height: 200vh;
-  padding: 6rem 1rem 1rem ;
-  margin-bottom: 1rem;
-}
 .carrousel-container {
   width: 100%;
   text-align: center; 
 }
-
 .custom-hr {
   border: 0; 
   height: 3px; 
@@ -32,5 +30,28 @@ ul {
   border-radius: 4px;
   margin: 20px auto ;
   margin-top: 50px;
-
+}
+.acceuil{
+  max-width: 60%;
+  margin: auto;
+}
+.acceuil-titre{
+  font-size: 40px;
+  font-weight: bold;
+  color: #007bff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.acceuil-titre span {
+  color: red;
+}
+.acceuil-titre span2{
+  color: white;
+}
+.acceuil-liste p {
+  font-size: 20px;
+}
+.emoji {
+  font-size: 30px;
 }
