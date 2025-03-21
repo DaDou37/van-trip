@@ -36,7 +36,7 @@ function App() {
       </Container>
       <hr className="col-4 " id='ligne' />
       <div className="acceuil text-center mt-5 px-4">
-        <h2 className="acceuil-titre">🚐 Bienvenue sur <span2>RoadTrip</span2><span> France</span> ! 🌍</h2>
+        <h2 className="acceuil-titre">🚐 Bienvenue sur <span className='text-white'>RoadTrip</span><span> France</span> ! 🌍</h2>
         <p className="lead mt-4">
           Le site dédié aux amoureux de la route et de l'aventure en van ! Ici, on partage conseils, itinéraires et bons plans
           pour explorer la France autrement, en toute liberté.

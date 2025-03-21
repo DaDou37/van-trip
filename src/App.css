@@ -1,7 +1,7 @@
 body {
   background-image: url('/public/image/fondgrandf.jpg'); 
   background-size: cover;
-  position: fixed;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 html, body {
@@ -45,9 +45,6 @@ ul {
 }
 .acceuil-titre span {
   color: red;
-}
-.acceuil-titre span2{
-  color: white;
 }
 .acceuil-liste p {
   font-size: 20px;
