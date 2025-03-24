@@ -3,7 +3,8 @@ import Slider from "react-slick";
 import { Card } from "react-bootstrap";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import './Slider.css';
+import '../../App.css';
+
 
 
 function centerMode() {

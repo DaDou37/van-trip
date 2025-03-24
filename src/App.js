@@ -15,27 +15,26 @@ import './App.css';
 function App() {
   return (
     <>
-      <div className='container-fluid'>
-        <Row>
-          <div className="col-4">
-            <input type='text' className='recherche' />
-          </div>
-          <div className="col-4" id='logo'>
-            <img src='/image/logo.png' width='200' height='200' />
-          </div>
-          <div className="col-4 ms-auto text-end ">
-            <a href='' className='auth'>Login/Register</a>
-            <FontAwesomeIcon icon="fa-brands fa-facebook" />
-          </div>
-        </Row>
-      </div>
+            <div className='container-fluid py-2 border-bottom'>
+                <Row className="align-items-center">
+                    <Col md={6}>
+                        <input type='text' className='recherche' placeholder="Rechercher..." />
+                    </Col>
+                    <Col md={6} className="text-end">
+                        <a href='Login' className='auth'>Login/Register</a>
+                    </Col>
+                </Row>
+            </div>
+            <div className='container text-center my-3'>
+                <img src='/image/logo.png' width='200' height='200' alt="Logo" />
+            </div>
       <Nav />
       <Bubble />
       <Container>
         <CenterMode />
       </Container>
       <hr className="col-4 " id='ligne' />
-      <div className="acceuil text-center mt-5 px-4">
+      <div className="acceuil text-center mt-5 px-4" id=''>
         <h2 className="acceuil-titre">🚐 Bienvenue sur <span className='text-white'>RoadTrip</span><span> France</span> ! 🌍</h2>
         <p className="lead mt-4">
           Le site dédié aux amoureux de la route et de l'aventure en van ! Ici, on partage conseils, itinéraires et bons plans
