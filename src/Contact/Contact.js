@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import Nav from '../components/Nav/Nav'; 
+import Nav from '../components/Nav/Nav';
 import Footer from '../components/Footer/Footer';
 import '../App.css';
 
@@ -29,28 +29,28 @@ const Contact = () => {
                     <Col md={6} className="separator pr-3">
                         <h4>Formulaire de contact</h4>
                         <Form>
-    <Form.Group>
-        <Form.Label>Nom</Form.Label>
-        <Form.Control type="text" id="form-control" placeholder="Entrez votre nom" />
-    </Form.Group>
+                            <Form.Group>
+                                <Form.Label>Nom</Form.Label>
+                                <Form.Control type="text" id="form-control" placeholder="Entrez votre nom" />
+                            </Form.Group>
 
-    <Form.Group>
-        <Form.Label>Email</Form.Label>
-        <Form.Control type="email" id="form-control" placeholder="Entrez votre email" />
-    </Form.Group>
+                            <Form.Group>
+                                <Form.Label>Email</Form.Label>
+                                <Form.Control type="email" id="form-control" placeholder="Entrez votre email" />
+                            </Form.Group>
 
-    <Form.Group>
-        <Form.Label>Message</Form.Label>
-        <Form.Control as="textarea" rows={3} id="form-control" placeholder="Votre message" />
-    </Form.Group>
+                            <Form.Group>
+                                <Form.Label>Message</Form.Label>
+                                <Form.Control as="textarea" rows={3} id="form-control" placeholder="Votre message" />
+                            </Form.Group>
 
-    <Button variant="light" id="form-control" type="submit">
-        Envoyer
-    </Button>
-</Form>
+                            <Button variant="light" id="form-control" type="submit">
+                                Envoyer
+                            </Button>
+                        </Form>
 
                     </Col>
-                    
+
                     <Col md={6} className="mr-3" id="coordonne">
                         <h4>Nos coordonnées</h4>
                         <p><strong><FontAwesomeIcon icon={faEnvelope} /> Email:</strong> riera.david94@gmail.com</p>
@@ -60,7 +60,7 @@ const Contact = () => {
                 </Row>
             </Container>
             <Footer />
-        </> 
+        </>
     );
 };
 

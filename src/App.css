@@ -248,7 +248,7 @@ ul {
 }
 @media (max-width: 767px) {
   .footer-links {
-      text-align: center;  /* Centre les liens sur les petits écrans */
+      text-align: center;  
   }
 }
 @media (min-width: 768px ) {
