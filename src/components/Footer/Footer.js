@@ -11,6 +11,7 @@ function Footer() {
                     <Col xs={12} md={12} className="footer-links">
                         <a href="/mentions-legales">Mentions légales</a>
                         <a href="/cgu">CGU</a>
+                        <a href="/faq">FAQ</a>
                         <a href="/newsletter">Newsletter</a>
                         <a href="/politique-confidentialite">Politique de confidentialité</a>
                     </Col>
