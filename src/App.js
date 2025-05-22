@@ -15,19 +15,19 @@ import './App.css';
 function App() {
   return (
     <>
-            <div className='container-fluid py-2 border-bottom'>
-                <Row className="align-items-center">
-                    <Col md={6}>
-                        <input type='text' className='recherche' placeholder="Rechercher..." />
-                    </Col>
-                    <Col md={6} className="text-end">
-                        <a href='Login' className='auth'>Login/Register</a>
-                    </Col>
-                </Row>
-            </div>
-            <div className='container text-center my-3'>
-                <img src='/image/logo.png' width='200' height='200' alt="Logo" />
-            </div>
+      <div className='container-fluid py-2 border-bottom'>
+        <Row className="align-items-center">
+          <Col md={6}>
+            <input type='text' className='recherche' placeholder="Rechercher..." />
+          </Col>
+          <Col md={6} className="text-end">
+            <a href='Login' className='auth'>Login/Register</a>
+          </Col>
+        </Row>
+      </div>
+      <div className='container text-center my-3'>
+        <img src='/image/logo.png' width='200' height='200' alt="Logo" />
+      </div>
       <Nav />
       <Bubble />
       <Container>

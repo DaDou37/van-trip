@@ -14,16 +14,16 @@ function Nav() {
             <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
                 <ul className="navbar__links">
                     <li className="navbar__item">
-                        <Link to="/" className="navbar__link">Nos Voyages</Link>  
+                        <Link to="/" className="navbar__link">Nos Voyages</Link>
                     </li>
                     <li className="navbar__item">
-                        <Link to="/" className="navbar__link">Nos Services</Link> 
+                        <Link to="/" className="navbar__link">Nos Services</Link>
                     </li>
                     <li className="navbar__item">
-                        <Link to="/contact" className="navbar__link">Nous contacter</Link>  
+                        <Link to="/contact" className="navbar__link">Nous contacter</Link>
                     </li>
                     <li className="navbar__item">
-                        <Link to="/" className="navbar__link">Bien se préparer</Link> 
+                        <Link to="/" className="navbar__link">Bien se préparer</Link>
                     </li>
                 </ul>
                 <button className="navbar__burger" onClick={handleShowLinks}>

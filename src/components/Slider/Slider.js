@@ -102,7 +102,7 @@ function centerMode() {
             <p className="card-text">Bienvenu ici, je suis si heureux d'avoir pu participer à ce road trip.</p>
           </Card>
         </div>
-        
+
         <div className="slick-slide">
           <Card className="card">
             <div className="card-title h5">Avis sur le Sud Est</div>
